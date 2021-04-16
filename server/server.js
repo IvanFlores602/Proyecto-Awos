@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.get('/', function(req, res) {
     res.send('<h1>Bienvenido a mi servidor REST</h1>');
 });
-
+//// RUTAS DEL PROYECTOq
 app.use(require('./routes/usuario'));
 app.use(require('./routes/categoria'));
 app.use(require('./routes/login'));
